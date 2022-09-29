@@ -12,5 +12,8 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="android:textViewStyle">@font/nunito_regular</item>
+        <!-- se define el estilo predeterminado para los textos -->
     </style>
 </resources>
