@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Heading Typeface and Sizes-->
+    <style name="head_one">
+        <item name="android:fontFamily">@font/notosans_regular</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+    <style name="head_two">
+        <item name="android:fontFamily">@font/notosans_regular</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="head_three">
+        <item name="android:fontFamily">@font/notosans_regular</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="head_four">
+        <item name="android:fontFamily">@font/notosans_regular</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Body Typeface and Sizes-->
+    <style name="body_large">
+        <item name="android:fontFamily">@font/nunitosans_regular</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="body_base">
+        <item name="android:fontFamily">@font/nunitosans_regular</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="body_small">
+        <item name="android:fontFamily">@font/nunitosans_regular</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+
+</resources>
