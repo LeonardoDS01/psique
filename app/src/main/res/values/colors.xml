@@ -1,12 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-
-    <color name="Secondary60">#314883</color>
+    <!-- Primary -->
+    <color name="primary_10">#FFFEFE</color>
+    <color name="primary_20">#FEFDFD</color>
+    <color name="primary_30">#FEFDFD</color>
+    <color name="primary_40">#FEFDFD</color>
+    <color name="primary_50">#FDFCFC</color>
+    <color name="primary_60">#FDFCFC</color>
+    <color name="primary_70">#D3D2D2</color>
+    <color name="primary_80">#A9A8A8</color>
+    <color name="primary_90">#7F7E7E</color>
+    <color name="primary_100">#545454</color>
+    <color name="primary_110">#333232</color>
+    <!-- Secondary -->
+    <color name="secondary_10">#D6DAE6</color>
+    <color name="secondary_20">#BAC2D6</color>
+    <color name="secondary_30">#98A3C1</color>
+    <color name="secondary_40">#7685AC</color>
+    <color name="secondary_50">#536798</color>
+    <color name="secondary_60">#314883</color>
+    <color name="secondary_70">#293C6D</color>
+    <color name="secondary_80">#213057</color>
+    <color name="secondary_90">#192442</color>
+    <color name="secondary_100">#10182C</color>
+    <color name="secondary_110">#0A0E1A</color>
+    <!-- Accent -->
+    <color name="accent_10">#F5FAFB</color>
+    <color name="accent_20">#EEF7F8</color>
+    <color name="accent_30">#E5F3F4</color>
+    <color name="accent_40">#DDEFF1</color>
+    <color name="accent_50">#D4EBED</color>
+    <color name="accent_60">#CCE7EA</color>
+    <color name="accent_70">#AAC0C3</color>
+    <color name="accent_80">#889A9C</color>
+    <color name="accent_90">#667475</color>
+    <color name="accent_100">#444D4E</color>
+    <color name="accent_110">#292E2F</color>
+    <!-- Tertiary 01 -->
+    <color name="tertiary_one_10">#EEFAF1</color>
+    <color name="tertiary_one_20">#E2F7E7</color>
+    <color name="tertiary_one_30">#D3F3DB</color>
+    <color name="tertiary_one_40">#C5EFCF</color>
+    <color name="tertiary_one_50">#B6EBC3</color>
+    <color name="tertiary_one_60">#A8E7B7</color>
+    <color name="tertiary_one_70">#8CC098</color>
+    <color name="tertiary_one_80">#709A7A</color>
+    <color name="tertiary_one_90">#54745C</color>
+    <color name="tertiary_one_100">#384D3D</color>
+    <color name="tertiary_one_110">#222E25</color>
+    <!-- Tertiary 02 -->
+    <color name="tertiary_two_10">#F9E2E2</color>
+    <color name="tertiary_two_20">#F5CFCF</color>
+    <color name="tertiary_two_30">#EFB6B6</color>
+    <color name="tertiary_two_40">#EA9E9E</color>
+    <color name="tertiary_two_50">#E58686</color>
+    <color name="tertiary_two_60">#E06E6E</color>
+    <color name="tertiary_two_70">#BB5C5C</color>
+    <color name="tertiary_two_80">#954949</color>
+    <color name="tertiary_two_90">#703737</color>
+    <color name="tertiary_two_100">#4B2525</color>
+    <color name="tertiary_two_110">#2D1616</color>
 </resources>
