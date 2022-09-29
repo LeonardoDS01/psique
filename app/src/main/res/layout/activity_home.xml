@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    style="@style/body_base"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context=".HomeActivity">
@@ -127,20 +128,20 @@
 
                     <TextView
                         android:id="@+id/textView3"
-                        style="@style/Nunito_Regular_400"
+                        style="@style/body_base"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Estimated Completion Time:" />
 
                     <TextView
                         android:id="@+id/textView4"
-                        style="@style/Nunito_Regular_400"
+                        style="@style/body_base"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_weight="1"
                         android:text="25 Days"
-                        android:textColor="@color/Secondary60" />
+                        android:textColor="@color/secondary_60" />
 
                     <ImageView
                         android:id="@+id/imageView9"
@@ -161,7 +162,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="50dp"
                 android:text="Custonize Routine"
-                android:textColor="@color/Secondary60"
+                android:textColor="@color/secondary_60"
                 android:textDirection="rtl" />
 
             <LinearLayout
@@ -182,6 +183,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:fontFamily="@font/nunitosans_regular"
                     android:text="Create New Routine" />
             </LinearLayout>
 
