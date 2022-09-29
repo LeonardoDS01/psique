@@ -13,6 +13,9 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="android:textViewStyle">@font/nunito_regular</item>
+        <!-- se define el estilo predeterminado para los textos -->
     </style>
     <style name="Theme.Splash" parent="Theme.AppCompat.NoActionBar">
         <item name="windowActionBar">false</item>
