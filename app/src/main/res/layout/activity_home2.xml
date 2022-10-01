@@ -76,51 +76,62 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/radius_linearlayout"
+                android:clipToPadding="false"
+                android:elevation="15dp"
+                android:orientation="vertical"
+                android:padding="5dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginTop="40px"
                     android:orientation="horizontal">
 
-                    <ImageView
-                        android:id="@+id/imageView5"
+                    <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/meditation" />
+                        android:orientation="horizontal"
+                        android:textAlignment="center">
 
-                    <ImageView
-                        android:id="@+id/imageView6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        app:srcCompat="@drawable/food_container" />
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            app:srcCompat="@drawable/meditation" />
 
-                    <ImageView
-                        android:id="@+id/imageView7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        app:srcCompat="@drawable/respiracion" />
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            app:srcCompat="@drawable/respiracion" />
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            app:srcCompat="@drawable/food_container" />
+
+                    </LinearLayout>
 
                     <Button
-                        android:id="@+id/btn_StartRoutine"
+                        android:id="@+id/button2"
+                        style="@style/boton_normal"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@color/secondary_60"
-                        android:backgroundTint="@color/secondary_60"
-                        android:fontFamily="@font/nunitosans_regular"
                         android:text="Resumen Routine"
-                        tools:ignore="TextContrastCheck" />
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageView
                         android:id="@+id/imageView8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/arrow_right" />
                 </LinearLayout>
@@ -142,17 +153,11 @@
                         style="@style/body_base"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
                         android:layout_weight="1"
+                        android:drawableRight="@drawable/polyswarm"
                         android:text="15 Days"
+                        android:textAlignment="center"
                         android:textColor="@color/secondary_60" />
-
-                    <ImageView
-                        android:id="@+id/imageView9"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        app:srcCompat="@drawable/polyswarm" />
 
                 </LinearLayout>
 
@@ -193,15 +198,23 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:paddingBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
                     android:layout_marginTop="28dp"
+                    android:background="#fff"
+                    android:clipToPadding="false"
+                    android:elevation="10dp"
                     android:layoutDirection="inherit"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:padding="5dp">
 
                     <ImageView
                         android:id="@+id/imageView17"
@@ -214,16 +227,23 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:layout_weight="1"
                         android:text="Edit Current Routine" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="16dp"
-                    android:orientation="horizontal">
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="28dp"
+                    android:background="#fff"
+                    android:clipToPadding="false"
+                    android:elevation="10dp"
+                    android:layoutDirection="inherit"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    >
+
 
                     <ImageView
                         android:id="@+id/imageView18"
@@ -236,7 +256,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:layout_weight="1"
                         android:text="Create New Routine" />
                 </LinearLayout>
             </LinearLayout>
