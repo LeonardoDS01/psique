@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/home"
+        android:id="@+id/home"/>
+    <item android:title="Planer"
+        android:icon="@drawable/planner"
+        android:id="@+id/planner"/>
+    <item android:title="Exercises"
+        android:icon="@drawable/exercises"
+        android:id="@+id/exercises"/>
+    <item android:title="Reports"
+        android:icon="@drawable/reports"
+        android:id="@+id/reports"/>
+    <item android:title="Settings"
+        android:icon="@drawable/settings"
+        android:id="@+id/settings"/>
+</menu>

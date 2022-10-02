@@ -75,6 +75,7 @@
             </LinearLayout>
 
             <LinearLayout
+                style="@style/linearLayoutPrincipal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -119,11 +120,10 @@
                     </LinearLayout>
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/btn_StartRoutine"
                         style="@style/boton_normal"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
                         android:text="Resumen Routine"
                         tools:ignore="TouchTargetSizeCheck" />
 
@@ -409,7 +409,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/home" />
+                    app:srcCompat="@drawable/home2" />
 
                 <ImageView
                     android:id="@+id/imageView13"
